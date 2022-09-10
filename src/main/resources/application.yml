@@ -1,0 +1,13 @@
+load-balancer-config:
+  serviceId: cashier
+  servers:
+    -
+      instanceId: 1
+      host: localhost
+      port: 8080
+      secure: false
+    -
+      instanceId: 2
+      host: localhost
+      port: 8081
+      secure: false
